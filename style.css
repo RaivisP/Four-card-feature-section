@@ -1,0 +1,151 @@
+* {
+    font-family: 'Poppins', serif;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    color:#002244;
+}
+
+p {
+    margin-top: -30px;
+    color: gray;
+    font-weight: 300;
+}
+
+.heading-1, .heading-2, .heading-description, h5 {
+    text-align: center;
+}
+
+.heading-1 {
+    margin-top: 67px;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.heading-2 {
+    margin-top: -28px;
+    font-size: 34px;
+    font-weight: 580;
+    color: 	#002244;
+}
+
+.heading-description {
+    color: gray;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.main-container {
+    display: flex;
+    margin: 100px auto 100px auto;
+    height: 550px;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.Supervisor, .TeamBuilder, .Karma, .Calculator {
+    width: 360px;
+    height: 230px;
+    padding: 30px;
+    box-shadow: 5px 10px 8px 10px rgb(229, 228, 226, 0.5);
+    transition: transform 1.2s ease-in-out;
+}
+
+.Supervisor {
+    background-color: white;
+    border-radius: 8px;
+    border-top: 1.5mm rgb(109,195,197) solid;
+}
+
+.Calculator {
+    background-color: white;
+    border-radius: 8px;
+    border-top: 1.5mm rgb(92,148,213) solid;
+}
+
+.TeamBuilder {
+    background-color: white;
+    border-radius: 8px;
+    border-top: 1.5mm 	rgb(214,78,79) solid;
+}
+
+.Karma {
+    background-color: white;
+    border-radius: 8px;
+    border-top: 1.5mm rgb(250,174,82) solid;
+}
+
+.TeamKarma {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Supervisor img{
+    display: block;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.TeamBuilder img{
+    display: block;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.Calculator img{
+    display: block;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.Karma img{
+    display: block;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.Calculator:hover {
+    transform: scale(1.1);
+}
+
+.Supervisor:hover {
+    transform: scale(1.1);
+}
+
+.TeamBuilder:hover {
+    transform: scale(1.1);
+}
+
+.Karma:hover {
+    transform: scale(1.1);
+}
+
+.heading-description-div {
+    width: 25%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1450px) {
+    .main-container {
+        flex-direction: column;
+        margin-top: 400px;
+        padding-bottom: 300px;
+    }
+
+    .heading-description-div {
+        width: 25%;
+        margin: auto;
+        width: 280px;
+    }
+  }
+
+
+    
+
+
+
